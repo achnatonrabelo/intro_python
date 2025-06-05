@@ -19,7 +19,6 @@ def display_menu():
 clear_screen()
 
 while True:
-    # clear_screen()
     display_menu()
     try:
         numero = input('Informe a tabuada desejada: ')
@@ -58,5 +57,3 @@ while True:
         clear_screen()
         console.print('\n[bold red]Programa encerrado pelo usuário.[/bold red]')
         break
-
-    # def calcular_tabuada(tabuada, operacao):
